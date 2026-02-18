@@ -1,10 +1,10 @@
 package JOBSHEET02;
 
 public class MataKuliah19 {
-   private String idMataKuliah;
-   private String nama;
-   private int sks;
-   private int totalJam;
+   String idMataKuliah;
+   String nama;
+   int sks;
+   int totalJam;
 
    public MataKuliah19(String idMataKuliah, String nama, int sks, int totalJam) {
       this.idMataKuliah = idMataKuliah;
@@ -42,4 +42,5 @@ public class MataKuliah19 {
          System.out.println("Pengurangan tidak dapat dilakukan. Jam tidak mencukupi.");
       }
    }
+
 }
