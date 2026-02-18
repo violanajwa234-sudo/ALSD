@@ -1,11 +1,11 @@
 package JOBSHEET02;
 
 public class Dosen19 {
-   private String idDosen;
-   private String nama;
-   private boolean statusAktif;
-   private String tahunMulai;
-   private String bidangKeahlian;
+   String idDosen;
+   String nama;
+   boolean statusAktif;
+   String tahunMulai;
+   String bidangKeahlian;
 
    public Dosen19(String idDosen, String nama, boolean statusAktif, String tahunMulai, String bidangKeahlian) {
       this.idDosen = idDosen;
@@ -33,4 +33,5 @@ public class Dosen19 {
       this.statusAktif = status;
       System.out.println("Status aktivitas diubah menjadi: " + (status ? "Aktif" : "Tidak Aktif"));
    }
+
 }
